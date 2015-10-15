@@ -23,6 +23,8 @@
 #define FLAnimatedImage         NSObject
 #endif
 
+#import "TargetConditionals.h" 
+
 #if !TARGET_OS_IPHONE
 #define UIImage                 NSImage
 #endif
