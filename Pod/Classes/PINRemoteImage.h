@@ -9,8 +9,6 @@
 #ifndef Pods_PINRemoteImage_h
 #define Pods_PINRemoteImage_h
 
-#import "PINRemoteImageMacros.h"
-
 #import "PINRemoteImageManager.h"
 #import "PINRemoteImageCategoryManager.h"
 #import "PINRemoteImageManagerResult.h"
