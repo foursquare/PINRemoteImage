@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import "PINRemoteImageMacros.h"
+
 @interface PINProgressiveImage : NSObject
 
 @property (atomic, copy) NSArray *progressThresholds;

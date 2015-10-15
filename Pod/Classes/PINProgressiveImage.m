@@ -11,7 +11,6 @@
 #import <ImageIO/ImageIO.h>
 #import <CoreImage/CoreImage.h>
 
-#import "PINRemoteImage.h"
 #import "UIImage+DecodedImage.h"
 
 @interface PINProgressiveImage ()

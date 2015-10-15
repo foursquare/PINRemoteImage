@@ -13,7 +13,6 @@
 #endif
 #import <PINCache/PINCache.h>
 
-#import "PINRemoteImage.h"
 #import "PINProgressiveImage.h"
 #import "PINRemoteImageCallbacks.h"
 #import "PINRemoteImageTask.h"

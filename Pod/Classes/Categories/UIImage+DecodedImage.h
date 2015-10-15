@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+#import "PINRemoteImageMacros.h"
+
+
 @interface UIImage (PINDecodedImage)
 
 + (UIImage *)pin_decodedImageWithData:(NSData *)data;

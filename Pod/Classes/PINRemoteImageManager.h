@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+#import "PINRemoteImageMacros.h"
 #import "PINRemoteImageManagerResult.h"
 
 @class FLAnimatedImage;
