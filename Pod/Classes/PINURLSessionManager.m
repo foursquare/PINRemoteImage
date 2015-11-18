@@ -76,7 +76,7 @@
 	[self unlock];
 	
 	__weak typeof(self) weakSelf = self;
-	dispatch_async(delegateQueue, ^{
+	dispatch_sync(delegateQueue, ^{
 		if ([weakSelf.delegate respondsToSelector:@selector(didReceiveAuthenticationChallenge:forTask:completionHandler:)]) {
 			[weakSelf.delegate didReceiveAuthenticationChallenge:challenge forTask:task completionHandler:completionHandler];
         } else {
