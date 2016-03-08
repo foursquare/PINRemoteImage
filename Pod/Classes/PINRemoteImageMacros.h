@@ -6,6 +6,8 @@
 #ifndef PINRemoteImageMacros_h
 #define PINRemoteImageMacros_h
 
+#import <Availability.h>
+
 #define PINRemoteImageLogging                0
 #if PINRemoteImageLogging
 #define PINLog(args...) NSLog(args)
